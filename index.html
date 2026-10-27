@@ -1,0 +1,423 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Suhail for Poplin</title>
+<style>html,body{margin:0;height:100%;background:#151515;overflow:hidden;font-family:Arial,sans-serif}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+#stage section{position:absolute;left:0;top:0;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden;opacity:0;pointer-events:none;transition:opacity .35s}
+#stage section.on{opacity:1;pointer-events:auto}
+#stage p,#stage h1,#stage h2{margin:0}#stage hr{margin:0;border-left:0;border-right:0;border-bottom:0;height:0}#stage *{box-sizing:content-box}
+.embed{position:absolute;left:1000px;top:0;width:920px;height:1080px}
+#nav{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);display:flex;gap:10px;align-items:center;color:#ADADAD;font-size:14px;z-index:9}
+#nav button{background:#404040;color:#fff;border:0;border-radius:5px;padding:6px 12px;cursor:pointer}</style></head><body>
+<div id="stage"><section id="cover" data-transition="fade" style="background:#151515;color:#FFFFFF;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<img src="assets/minneapolis_map.png" alt="Street map of Minneapolis, Minnesota" style="position:absolute;left:1000px;top:0px;width:920px;height:1080px">
+<div class="embed"><svg width="920" height="1080" viewBox="0 0 920 1080" xmlns="http://www.w3.org/2000/svg"><defs><g id="lg" fill="none"><path d="M1.8 43.75V11.9"/><circle cx="11.9" cy="11.9" r="10.1"/><circle cx="27.5" cy="32.9" r="9.7"/><circle cx="53.9" cy="32.9" r="9.7"/><path d="M44.05 32.9V59M70 3V43.75M77.9 22V43.75M85.9 43.75V32.85A10.05 10.05 0 0 1 106 32.85V43.75"/><path d="M76.1 18.1H79.7" stroke-width="3"/></g></defs><path id="r" d="M563.6 501.1 L563 507.9 L566.6 517 L566.9 522.3 L564.3 521.3 L563.4 516.2 L559.2 509.5 L550.6 501.5 L535.1 501 L533.9 507.5 L535.8 513.9 L535 515.3 L531.9 515.7 L532.1 505.8 L534.7 497.5 L544.6 478.1 L549.3 456.3 L552 449.2 L592.1 378.2 L601.9 369.3 L608.3 361 L610.3 356.6 L610.5 322.7 L608.5 314.7 L602.3 307.5 L600.6 302.8 L600.8 244.7 L620.6 244.8 L631.1 231.2 L642.2 221.8 L698.9 145.7 L696.7 144.5 L693.6 144.7 L694.2 137.7 L699 137.4 L694.2 137.7 L693.6 144.7 L696.7 144.5 L698.9 145.7 L683.1 167.8 L682.9 181.9 L677.2 197.6 L681.9 212.8 L682.5 284.8 L693.2 284.8 L693.3 314.3 L694.1 315.1 L703.4 315 L703.4 324.6 L723.6 324.4 L723.5 344.3 L743.6 344.1 L743.4 364 L775.2 363.4 L774.9 390.2 L783.8 397.9 L788 399.2 L820.5 398.6 L821.5 400.1 L820.5 398.6 L788 399.2 L783.8 397.9 L774.9 390.2 L775.2 363.4 L653.8 365 L653.6 396.9 L622.2 452.2 L679.7 484.6 L685.1 489.4 L686.3 496.1 L684 501.2 L691 505.5 L691 586.1 L712.7 608.4 L723.4 615.5 L727.5 619.5 L699.8 642.4 L697.8 647.1 L705 653.7 L707.3 653.7 L709 652.3 L720.6 664.3 L731.5 679.7 L753.3 702.8 L784.1 726.1 L788 733.2 L779.9 741.5 L782.8 744.2 L782.8 761.5 L782.8 837.6 L712.5 838.5 L712.5 858.5 L701.7 858.7 L701.7 878.6 L680 878.9 L679.8 898.7 L630.1 898.9 L630.1 918.9 L620.2 918.9 L620.2 939 L600.2 939 L599.9 841.3 L608 841.3 L564.8 752.1 L553.4 721.9 L520.2 722 L520.4 698.7 L521.5 678.8 L536.4 656.1 L537.6 649.9 L537.8 634.3 L544.3 624.1 L545.8 618.8 L546.1 574.7 L533.6 567.2 L532 524.7 L535.1 523.7 L535.5 517.8 L537 515.8 L558.5 515.3 L559.2 509.5 L563.4 516.2 L564.3 521.3 L566.9 522.3 L566.6 517 L563 507.9 L563.6 501.1" fill="none" stroke="none"/><circle cx="699" cy="137.4" r="7" fill="#151515" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5"/><circle cx="821.5" cy="400.1" r="7" fill="#151515" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5"/><circle cx="782.8" cy="761.5" r="7" fill="#151515" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5"/><circle cx="600.2" cy="939" r="7" fill="#151515" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5"/><circle cx="520.4" cy="698.7" r="7" fill="#151515" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5"/><g><rect x="488.6" y="285.1" width="150" height="68" rx="16" fill="#F2127D"/><path d="M563.6 353.1 l-11 0 l11 14 l11 -14z" fill="#F2127D"/><use href="#lg" transform="translate(516.1 293.1) scale(0.88)" stroke="#FFFFFF" stroke-width="3.6"/></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1489;0.1559;0.2007;0.2105;1" dur="35.69s" repeatCount="indefinite"/><rect x="613" y="167.4" width="178" height="46" rx="23" fill="#FFFFFF"/><circle cx="638" cy="190.4" r="15" fill="#F2127D"/><path d="M631 190.4 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="662" y="198.4" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#151515">Delivered</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3151;0.3221;0.3669;0.3767;1" dur="35.69s" repeatCount="indefinite"/><rect x="734" y="250.1" width="178" height="46" rx="23" fill="#FFFFFF"/><circle cx="759" cy="273.1" r="15" fill="#F2127D"/><path d="M752 273.1 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="783" y="281.1" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#151515">Delivered</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5634;0.5704;0.6153;0.6251;1" dur="35.69s" repeatCount="indefinite"/><rect x="696.8" y="611.5" width="178" height="46" rx="23" fill="#FFFFFF"/><circle cx="721.8" cy="634.5" r="15" fill="#F2127D"/><path d="M714.8 634.5 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="745.8" y="642.5" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#151515">Delivered</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7151;0.7221;0.7669;0.7767;1" dur="35.69s" repeatCount="indefinite"/><rect x="514.2" y="789" width="178" height="46" rx="23" fill="#FFFFFF"/><circle cx="539.2" cy="812" r="15" fill="#F2127D"/><path d="M532.2 812 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="563.2" y="820" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#151515">Delivered</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8495;0.8565;0.9014;0.9112;1" dur="35.69s" repeatCount="indefinite"/><rect x="434.4" y="548.7" width="178" height="46" rx="23" fill="#FFFFFF"/><circle cx="459.4" cy="571.7" r="15" fill="#F2127D"/><path d="M452.4 571.7 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="483.4" y="579.7" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#151515">Delivered</text></g><g><animateMotion dur="35.69s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.20913;0.20913;0.36837;0.36837;0.64636;0.64636;0.7846;0.7846;0.89791;0.89791;1;1" keyTimes="0;0.1447;0.2007;0.3109;0.3669;0.5592;0.6153;0.7109;0.7669;0.8453;0.9014;0.972;1"><mpath href="#r"/></animateMotion><g transform="scale(0.8)"><g><animateTransform attributeName="transform" type="scale" values="-1 1;1 1;-1 1;1 1;-1 1;1 1;-1 1;1 1" keyTimes="0;0.0476;0.2046;0.2494;0.3699;0.4484;0.51;0.9051" calcMode="discrete" dur="35.69s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 -3;0 0;0 0" keyTimes="0;0.0003;0.0084;0.0168;0.0252;0.0336;0.042;0.0504;0.0588;0.0673;0.0757;0.0841;0.0925;0.1009;0.1093;0.1177;0.1261;0.1345;0.1429;0.1447;0.2007;0.2091;0.2175;0.2259;0.2343;0.2427;0.2512;0.2596;0.268;0.2764;0.2848;0.2932;0.3016;0.3109;0.3669;0.3753;0.3837;0.3921;0.4005;0.4089;0.4174;0.4258;0.4342;0.4426;0.451;0.4594;0.4678;0.4762;0.4846;0.493;0.5014;0.5098;0.5182;0.5266;0.535;0.5435;0.5519;0.5592;0.6153;0.6237;0.6321;0.6405;0.6489;0.6573;0.6657;0.6741;0.6825;0.6909;0.6993;0.7077;0.7109;0.7669;0.7753;0.7837;0.7921;0.8006;0.809;0.8174;0.8258;0.8342;0.8426;0.8453;0.9014;0.9098;0.9182;0.9266;0.935;0.9434;0.9518;0.9602;0.9686;0.972;1" dur="35.69s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62" keyTimes="0;0.0084;0.0252;0.042;0.0588;0.0757;0.0925;0.1093;0.1261;0.1429;0.1447;0.2007;0.2091;0.2259;0.2427;0.2596;0.2764;0.2932;0.3109;0.3669;0.3753;0.3921;0.4089;0.4258;0.4426;0.4594;0.4762;0.493;0.5098;0.5266;0.5435;0.5592;0.6153;0.6237;0.6405;0.6573;0.6741;0.6909;0.7077;0.7109;0.7669;0.7753;0.7921;0.809;0.8258;0.8426;0.8453;0.9014;0.9098;0.9266;0.9434;0.9602;0.972;1" dur="35.69s" repeatCount="indefinite"/><rect x="-5" y="-64" width="10" height="58" rx="5" fill="#8A8A8A"/><ellipse cx="4" cy="-4" rx="9" ry="4.5" fill="#8A8A8A"/></g><rect x="-64" y="-124" width="52" height="64" rx="9" fill="#F2127D"/><path d="M-64 -108 H-12" stroke="#B80C5E" stroke-width="2"/><path d="M-12 -112 C-4 -112 -2 -100 -4 -86" stroke="#F2127D" stroke-width="5" fill="none"/><g transform="translate(-38,-84)"><animateTransform attributeName="transform" type="scale" additive="sum" values="-1 1;1 1;-1 1;1 1;-1 1;1 1;-1 1;1 1" keyTimes="0;0.0476;0.2046;0.2494;0.3699;0.4484;0.51;0.9051" calcMode="discrete" dur="35.69s" repeatCount="indefinite"/><use href="#lg" transform="scale(0.36) translate(-54 -29.5)" stroke="#FFFFFF" stroke-width="5.2"/></g><rect x="-15" y="-120" width="30" height="60" rx="10" fill="#E4E4E4"/><g><animateTransform attributeName="transform" type="rotate" values="0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;-26 0 -62;0 0 -62;0 0 -62;-26 0 -62;26 0 -62;-26 0 -62;26 0 -62;0 0 -62;0 0 -62" keyTimes="0;0.0084;0.0252;0.042;0.0588;0.0757;0.0925;0.1093;0.1261;0.1429;0.1447;0.2007;0.2091;0.2259;0.2427;0.2596;0.2764;0.2932;0.3109;0.3669;0.3753;0.3921;0.4089;0.4258;0.4426;0.4594;0.4762;0.493;0.5098;0.5266;0.5435;0.5592;0.6153;0.6237;0.6405;0.6573;0.6741;0.6909;0.7077;0.7109;0.7669;0.7753;0.7921;0.809;0.8258;0.8426;0.8453;0.9014;0.9098;0.9266;0.9434;0.9602;0.972;1" dur="35.69s" repeatCount="indefinite"/><rect x="-5" y="-64" width="10" height="58" rx="5" fill="#CFCFCF"/><ellipse cx="4" cy="-4" rx="9" ry="4.5" fill="#CFCFCF"/></g><circle cx="2" cy="-138" r="13" fill="#EBD9C8"/><path d="M-11 -139 A13 13 0 0 1 15 -139 C8 -147 -4 -147 -11 -139Z" fill="#7A7A7A"/><path d="M4 -108 L24 -84" stroke="#E4E4E4" stroke-width="9" stroke-linecap="round"/><rect x="10" y="-102" width="38" height="8" rx="2" fill="#F4F4F4"/><rect x="10" y="-94" width="38" height="8" rx="2" fill="#BDBDBD"/><rect x="10" y="-86" width="38" height="8" rx="2" fill="#F4F4F4"/><circle cx="26" cy="-76" r="5" fill="#EBD9C8"/></g></g></g></g></svg></div>
+<h1 style="position:absolute;left:50px;top:153px;width:1500px;font-size:230px;font-weight:400;line-height:200px;color:#FFFFFF">Hello,<br>I’m Suhail.</h1>
+<p style="position:absolute;left:50px;top:785px;width:700px;font-size:28px;line-height:34px;color:#FFFFFF">A short story of how I got here, and why Poplin feels like the next chapter.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#ADADAD">Suhail Khira, October 2026</p>
+
+</section>
+
+<section id="hello" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Where it started</p>
+<p style="position:absolute;left:47px;top:119px;width:1766px;font-size:95px;font-weight:400;line-height:100px;color:#151515">I started out designing screens. Then I got curious about <span style="color:#8A8A8A">everything behind them: the data, the rules, and the people on the other side.</span></p>
+<p style="position:absolute;left:50px;top:790px;width:900px;font-size:28px;line-height:36px;color:#6B6B6B">That curiosity is the thread through everything that follows.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">02 / 12</p>
+
+</section>
+
+<section id="journey" data-transition="magic" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">How I got here</p>
+<div id="tl" style="position:absolute;left:50px;top:190px;width:1820px;height:1px;background:#E4E4E4"></div>
+<div id="hl" style="position:absolute;left:50px;top:188px;width:1820px;height:5px;background:#151515"></div>
+<div id="d1" style="position:absolute;left:50px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d2" style="position:absolute;left:513px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d3" style="position:absolute;left:975px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d4" style="position:absolute;left:1438px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<p id="y1" style="position:absolute;left:50px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2021</p>
+<p id="y2" style="position:absolute;left:513px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y3" style="position:absolute;left:975px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y4" style="position:absolute;left:1438px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2023 to now</p>
+<p id="n1" style="position:absolute;left:50px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">eVidhya</p>
+<p id="n2" style="position:absolute;left:513px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">Nimbbl</p>
+<p id="n3" style="position:absolute;left:975px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">PayPal intern</p>
+<p id="n4" style="position:absolute;left:1438px;top:254px;width:432px;font-size:40px;line-height:48px;font-weight:400;color:#151515">PayPal designer</p>
+<h2 style="position:absolute;left:47px;top:470px;width:1500px;font-size:107px;font-weight:400;line-height:110px;color:#151515">How I got here</h2>
+<p style="position:absolute;left:50px;top:640px;width:1200px;font-size:32px;line-height:40px;color:#6B6B6B">From a learning app to compliance in 20+ countries.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">03 / 12</p>
+
+</section>
+
+<section id="journey-1" data-transition="magic" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">How I got here</p>
+<div id="tl" style="position:absolute;left:50px;top:190px;width:1820px;height:1px;background:#E4E4E4"></div>
+<div id="hl" style="position:absolute;left:50px;top:188px;width:405px;height:5px;background:#151515"></div>
+<div id="d1" style="position:absolute;left:50px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d2" style="position:absolute;left:513px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d3" style="position:absolute;left:975px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d4" style="position:absolute;left:1438px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<p id="y1" style="position:absolute;left:50px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2021</p>
+<p id="y2" style="position:absolute;left:513px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y3" style="position:absolute;left:975px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y4" style="position:absolute;left:1438px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2023 to now</p>
+<p id="n1" style="position:absolute;left:50px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:700;color:#151515">eVidhya</p>
+<p id="n2" style="position:absolute;left:513px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">Nimbbl</p>
+<p id="n3" style="position:absolute;left:975px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">PayPal intern</p>
+<p id="n4" style="position:absolute;left:1438px;top:254px;width:432px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">PayPal designer</p>
+<h2 style="position:absolute;left:47px;top:420px;width:1500px;font-size:95px;font-weight:400;line-height:100px;color:#151515">Founding designer</h2>
+<hr style="position:absolute;left:50px;top:650px;width:1820px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:50px;top:690px;width:800px;font-size:24px;line-height:30px;color:#6B6B6B">What I did</p>
+<p style="position:absolute;left:50px;top:735px;width:800px;font-size:32px;line-height:40px;color:#151515">A learning app and an ERP.</p>
+<p style="position:absolute;left:975px;top:690px;width:800px;font-size:24px;line-height:30px;color:#6B6B6B">What I grew</p>
+<p style="position:absolute;left:975px;top:735px;width:800px;font-size:32px;line-height:40px;color:#151515">Owning a product end to end, as the only designer.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">03 / 12</p>
+
+</section>
+
+<section id="journey-2" data-transition="magic" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">How I got here</p>
+<div id="tl" style="position:absolute;left:50px;top:190px;width:1820px;height:1px;background:#E4E4E4"></div>
+<div id="hl" style="position:absolute;left:513px;top:188px;width:405px;height:5px;background:#151515"></div>
+<div id="d1" style="position:absolute;left:50px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d2" style="position:absolute;left:513px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d3" style="position:absolute;left:975px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d4" style="position:absolute;left:1438px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<p id="y1" style="position:absolute;left:50px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2021</p>
+<p id="y2" style="position:absolute;left:513px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y3" style="position:absolute;left:975px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y4" style="position:absolute;left:1438px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2023 to now</p>
+<p id="n1" style="position:absolute;left:50px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">eVidhya</p>
+<p id="n2" style="position:absolute;left:513px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:700;color:#151515">Nimbbl</p>
+<p id="n3" style="position:absolute;left:975px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">PayPal intern</p>
+<p id="n4" style="position:absolute;left:1438px;top:254px;width:432px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">PayPal designer</p>
+<h2 style="position:absolute;left:47px;top:420px;width:1500px;font-size:95px;font-weight:400;line-height:100px;color:#151515">Fintech designer</h2>
+<hr style="position:absolute;left:50px;top:650px;width:1820px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:50px;top:690px;width:800px;font-size:24px;line-height:30px;color:#6B6B6B">What I did</p>
+<p style="position:absolute;left:50px;top:735px;width:800px;font-size:32px;line-height:40px;color:#151515">Checkout, BNPL and dashboards for a fintech.</p>
+<p style="position:absolute;left:975px;top:690px;width:800px;font-size:24px;line-height:30px;color:#6B6B6B">What I grew</p>
+<p style="position:absolute;left:975px;top:735px;width:800px;font-size:32px;line-height:40px;color:#151515">Fintech flows, and the start of a design system.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">03 / 12</p>
+
+</section>
+
+<section id="journey-3" data-transition="magic" style="background:#ffffff">
+  <p style="position:absolute; top:50px; left:50px; width:700px; font-family:Arial, sans-serif; font-size:24px; font-weight:700; color:#151515">Suhail Khira</p>
+  <p style="position:absolute; top:50px; right:50px; width:700px; font-family:Arial, sans-serif; font-size:24px; font-weight:700; text-align:right; color:#151515">How I got here</p>
+  <div id="tl" style="position:absolute; top:190px; left:50px; width:1820px; height:1px; display:flex; flex-direction:column; background:#e4e4e4">
+  </div>
+  <div id="hl" style="position:absolute; top:188px; left:975px; width:405px; height:5px; display:flex; flex-direction:column; background:#151515">
+  </div>
+  <div id="d1" style="position:absolute; top:182px; left:50px; width:16px; height:16px; display:flex; flex-direction:column; background:#adadad; border-radius:256px">
+  </div>
+  <div id="d2" style="position:absolute; top:182px; left:513px; width:16px; height:16px; display:flex; flex-direction:column; background:#adadad; border-radius:256px">
+  </div>
+  <div id="d3" style="position:absolute; top:182px; left:975px; width:16px; height:16px; display:flex; flex-direction:column; background:#151515; border-radius:256px">
+  </div>
+  <div id="d4" style="position:absolute; top:182px; left:1438px; width:16px; height:16px; display:flex; flex-direction:column; background:#adadad; border-radius:256px">
+  </div>
+  <p id="y1" style="position:absolute; top:214px; left:50px; width:405px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">2021</p>
+  <p id="y2" style="position:absolute; top:214px; left:513px; width:405px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">2022</p>
+  <p id="y3" style="position:absolute; top:214px; left:975px; width:405px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">2022</p>
+  <p id="y4" style="position:absolute; top:214px; left:1438px; width:405px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">2023 to now</p>
+  <p id="n1" style="position:absolute; top:254px; left:50px; width:405px; font-family:Arial, sans-serif; font-size:40px; font-weight:400; line-height:1.2; color:#6b6b6b">eVidhya</p>
+  <p id="n2" style="position:absolute; top:254px; left:513px; width:405px; font-family:Arial, sans-serif; font-size:40px; font-weight:400; line-height:1.2; color:#6b6b6b">Nimbbl</p>
+  <p id="n3" style="position:absolute; top:254px; left:975px; width:405px; font-family:Arial, sans-serif; font-size:40px; font-weight:700; line-height:1.2; color:#151515">PayPal intern</p>
+  <p id="n4" style="position:absolute; top:254px; left:1438px; width:432px; font-family:Arial, sans-serif; font-size:40px; font-weight:400; line-height:1.2; color:#6b6b6b">PayPal designer</p>
+  <h2 style="position:absolute; top:420px; left:47px; width:1500px; font-family:Arial, sans-serif; font-size:95px; font-weight:400; line-height:1.05; color:#151515">Built internal Customer Support Tools</h2>
+  <div style="position:absolute;left:50px;top:650px;width:1820px;height:1px;background:#E4E4E4"></div>
+  <p style="position:absolute; top:690px; left:50px; width:800px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">What I did</p>
+  <p style="position:absolute; top:735px; left:50px; width:800px; font-family:Arial, sans-serif; font-size:32px; line-height:1.25; color:#151515">Combined five agent tools into one.</p>
+  <p style="position:absolute; top:690px; left:975px; width:800px; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; color:#6b6b6b">What I grew</p>
+  <p style="position:absolute; top:735px; left:975px; width:800px; font-family:Arial, sans-serif; font-size:32px; line-height:1.25; color:#151515">How a huge company works, across several teams.</p>
+  <p style="position:absolute; bottom:30px; left:50px; width:900px; font-family:Arial, sans-serif; font-size:24px; color:#6b6b6b">Application for Poplin</p>
+  <p style="position:absolute; right:50px; bottom:30px; width:300px; font-family:Arial, sans-serif; font-size:24px; text-align:right; color:#6b6b6b">03 / 12</p>
+  
+</section>
+
+<section id="journey-4" data-transition="magic" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">How I got here</p>
+<div id="tl" style="position:absolute;left:50px;top:190px;width:1820px;height:1px;background:#E4E4E4"></div>
+<div id="hl" style="position:absolute;left:1438px;top:188px;width:405px;height:5px;background:#151515"></div>
+<div id="d1" style="position:absolute;left:50px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d2" style="position:absolute;left:513px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d3" style="position:absolute;left:975px;top:182px;width:16px;height:16px;border-radius:50%;background:#ADADAD"></div>
+<div id="d4" style="position:absolute;left:1438px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<p id="y1" style="position:absolute;left:50px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2021</p>
+<p id="y2" style="position:absolute;left:513px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y3" style="position:absolute;left:975px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y4" style="position:absolute;left:1438px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2023 to now</p>
+<p id="n1" style="position:absolute;left:50px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">eVidhya</p>
+<p id="n2" style="position:absolute;left:513px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">Nimbbl</p>
+<p id="n3" style="position:absolute;left:975px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#6B6B6B">PayPal intern</p>
+<p id="n4" style="position:absolute;left:1438px;top:254px;width:432px;font-size:40px;line-height:48px;font-weight:700;color:#151515">PayPal designer</p>
+<h2 style="position:absolute;left:47px;top:420px;width:1500px;font-size:95px;font-weight:400;line-height:100px;color:#151515">Designer on RCM</h2>
+<hr style="position:absolute;left:50px;top:650px;width:1820px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:50px;top:690px;width:850px;font-size:24px;line-height:30px;color:#6B6B6B">What I did</p>
+<p style="position:absolute;left:50px;top:735px;width:850px;font-size:32px;line-height:40px;color:#151515">Risk and compliance flows in 20+ countries: ~12% higher completion, ~18% fewer user errors, ~20% shorter review cycles.</p>
+<p style="position:absolute;left:975px;top:690px;width:850px;font-size:24px;line-height:30px;color:#6B6B6B">What I grew</p>
+<p style="position:absolute;left:975px;top:735px;width:850px;font-size:32px;line-height:40px;color:#151515">AI tools I built, and leading people and stakeholders.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">03 / 12</p>
+
+</section>
+
+<section id="journey-end" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">How I got here</p>
+<div id="tl" style="position:absolute;left:50px;top:190px;width:1820px;height:1px;background:#E4E4E4"></div>
+<div id="hl" style="position:absolute;left:50px;top:188px;width:1820px;height:5px;background:#151515"></div>
+<div id="d1" style="position:absolute;left:50px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d2" style="position:absolute;left:513px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d3" style="position:absolute;left:975px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<div id="d4" style="position:absolute;left:1438px;top:182px;width:16px;height:16px;border-radius:50%;background:#151515"></div>
+<p id="y1" style="position:absolute;left:50px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2021</p>
+<p id="y2" style="position:absolute;left:513px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y3" style="position:absolute;left:975px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2022</p>
+<p id="y4" style="position:absolute;left:1438px;top:214px;width:405px;font-size:24px;line-height:30px;color:#6B6B6B">2023 to now</p>
+<p id="n1" style="position:absolute;left:50px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">eVidhya</p>
+<p id="n2" style="position:absolute;left:513px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">Nimbbl</p>
+<p id="n3" style="position:absolute;left:975px;top:254px;width:405px;font-size:40px;line-height:48px;font-weight:400;color:#151515">PayPal intern</p>
+<p id="n4" style="position:absolute;left:1438px;top:254px;width:432px;font-size:40px;line-height:48px;font-weight:400;color:#151515">PayPal designer</p>
+<p style="position:absolute;left:50px;top:400px;width:405px;font-size:32px;line-height:40px;font-weight:700;color:#151515">Founding designer</p>
+<p style="position:absolute;left:50px;top:455px;width:405px;font-size:28px;line-height:36px;color:#151515">A learning app and an ERP.</p>
+<p style="position:absolute;left:513px;top:400px;width:405px;font-size:32px;line-height:40px;font-weight:700;color:#151515">Fintech designer</p>
+<p style="position:absolute;left:513px;top:455px;width:405px;font-size:28px;line-height:36px;color:#151515">Checkout, BNPL and dashboards for a fintech.</p>
+<p style="position:absolute;left:975px;top:400px;width:405px;font-size:32px;line-height:40px;font-weight:700;color:#151515">Intern on SPARK</p>
+<p style="position:absolute;left:975px;top:455px;width:405px;font-size:28px;line-height:36px;color:#151515">Five agent tools combined into one.</p>
+<p style="position:absolute;left:1438px;top:400px;width:432px;font-size:32px;line-height:40px;font-weight:700;color:#151515">Designer on RCM</p>
+<p style="position:absolute;left:1438px;top:455px;width:405px;font-size:28px;line-height:36px;color:#151515">Risk and compliance flows in 20+ countries.</p>
+<h2 style="position:absolute;left:47px;top:760px;width:1700px;font-size:63px;font-weight:400;line-height:69px;color:#151515">From a learning app to compliance in 20+ countries.</h2>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">03 / 12</p>
+
+</section>
+
+<section id="mysa" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<div style="position:absolute;left:513px;top:146px;width:432px;height:540px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:975px;top:146px;width:432px;height:540px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:1438px;top:146px;width:432px;height:540px;background:#F4F4F4;border-radius:5px"></div>
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Mysa</p>
+<h2 style="position:absolute;left:47px;top:140px;width:432px;font-size:63px;font-weight:400;line-height:69px;color:#151515">Mysa: a system for a growing team.</h2>
+<p style="position:absolute;left:543px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Design system levels, then templates</p>
+<p style="position:absolute;left:543px;top:556px;width:372px;font-size:95px;line-height:100px;color:#151515">L0-L2</p>
+<p style="position:absolute;left:1005px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Team size, with design staying consistent</p>
+<p style="position:absolute;left:1005px;top:556px;width:372px;font-size:95px;line-height:100px;color:#151515">3 to 25</p>
+<p style="position:absolute;left:1468px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Investor decks, proposals and everyday creatives</p>
+<p style="position:absolute;left:1468px;top:556px;width:372px;font-size:95px;line-height:100px;color:#151515">Decks</p>
+<p style="position:absolute;left:513px;top:760px;width:1357px;font-size:28px;line-height:36px;color:#151515">I worked closely with the frontend engineers, and turned the flows into templates so the team could reuse them.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">04 / 12</p>
+
+</section>
+
+<section id="paypal" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">PayPal, RCM</p>
+<h2 style="position:absolute;left:47px;top:146px;width:1300px;font-size:95px;font-weight:400;line-height:100px;color:#151515">Protecting revenue, not adding friction.</h2>
+<div style="position:absolute;left:50px;top:520px;width:820px;display:flex;flex-direction:column;gap:26px">
+<p style="font-size:28px;line-height:36px;color:#151515">RCM keeps PayPal compliant, so it can keep operating in every market. I design the CIP, KYC and AML flows.</p>
+<p style="font-size:28px;line-height:36px;color:#6B6B6B">The product is under NDA, so this is process and outcomes only.</p>
+</div>
+<hr style="position:absolute;left:1466px;top:146px;width:404px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:1466px;top:166px;width:404px;font-size:95px;line-height:100px;color:#151515">20+</p>
+<p style="position:absolute;left:1466px;top:266px;width:404px;font-size:28px;line-height:34px;color:#151515">countries with compliant flows</p>
+<hr style="position:absolute;left:1466px;top:356px;width:404px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:1466px;top:376px;width:404px;font-size:95px;line-height:100px;color:#151515">~12%</p>
+<p style="position:absolute;left:1466px;top:476px;width:404px;font-size:28px;line-height:34px;color:#151515">higher completion</p>
+<hr style="position:absolute;left:1466px;top:566px;width:404px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:1466px;top:586px;width:404px;font-size:95px;line-height:100px;color:#151515">~18%</p>
+<p style="position:absolute;left:1466px;top:686px;width:404px;font-size:28px;line-height:34px;color:#151515">fewer user errors</p>
+<hr style="position:absolute;left:1466px;top:776px;width:404px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:1466px;top:796px;width:404px;font-size:95px;line-height:100px;color:#151515">~20%</p>
+<p style="position:absolute;left:1466px;top:896px;width:404px;font-size:28px;line-height:34px;color:#151515">shorter review cycles</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">05 / 12</p>
+
+</section>
+
+<section id="before" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">PayPal</p>
+<h2 style="position:absolute;left:47px;top:140px;width:432px;font-size:63px;font-weight:400;line-height:69px;color:#151515">Before RCM.</h2>
+<hr style="position:absolute;left:513px;top:140px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:188px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">01</p>
+<p style="position:absolute;left:650px;top:176px;width:700px;font-size:53px;line-height:64px;color:#151515">SPARK</p>
+<p style="position:absolute;left:1350px;top:188px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Five agent tools into one</p>
+<hr style="position:absolute;left:513px;top:300px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:348px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">02</p>
+<p style="position:absolute;left:650px;top:336px;width:700px;font-size:53px;line-height:64px;color:#151515">Dispute resolution</p>
+<p style="position:absolute;left:1350px;top:348px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">New features</p>
+<hr style="position:absolute;left:513px;top:460px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:508px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">03</p>
+<p style="position:absolute;left:650px;top:496px;width:700px;font-size:53px;line-height:64px;color:#151515">Help center</p>
+<p style="position:absolute;left:1350px;top:508px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">A full revamp</p>
+<hr style="position:absolute;left:513px;top:620px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:668px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">04</p>
+<p style="position:absolute;left:650px;top:656px;width:700px;font-size:53px;line-height:64px;color:#151515">PayPal Assistant</p>
+<p style="position:absolute;left:1350px;top:668px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">PayPal’s AI assistant</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">06 / 12</p>
+
+</section>
+
+<section id="ai" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<div style="position:absolute;left:50px;top:146px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:512px;top:146px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:975px;top:146px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:1437px;top:146px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:50px;top:580px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:512px;top:580px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:975px;top:580px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:1437px;top:580px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">AI at work: things I built</p>
+<p style="position:absolute;left:80px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">of the design system upgrade work, done by my DS Scan plugin</p>
+<p style="position:absolute;left:80px;top:396px;width:372px;font-size:95px;line-height:100px;color:#151515">70%</p>
+<p style="position:absolute;left:542px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">I pushed PayPal to adopt it, saving dev hours</p>
+<p style="position:absolute;left:542px;top:426px;width:372px;font-size:53px;line-height:64px;color:#151515">Figma MCP</p>
+<p style="position:absolute;left:1005px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">My own self-reporting system</p>
+<p style="position:absolute;left:1005px;top:426px;width:372px;font-size:53px;line-height:64px;color:#151515">Suhail.OS</p>
+<p style="position:absolute;left:1467px;top:180px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">All the main files and workflows in one place</p>
+<p style="position:absolute;left:1467px;top:426px;width:372px;font-size:53px;line-height:64px;color:#151515">RCM Brain</p>
+<p style="position:absolute;left:80px;top:614px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">An agent built around how I think and work</p>
+<p style="position:absolute;left:80px;top:860px;width:372px;font-size:53px;line-height:64px;color:#151515">My agent</p>
+<p style="position:absolute;left:542px;top:614px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Content and UX writing checks</p>
+<p style="position:absolute;left:542px;top:860px;width:372px;font-size:53px;line-height:64px;color:#151515">Validators</p>
+<p style="position:absolute;left:1005px;top:614px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">A design tool I started on my own</p>
+<p style="position:absolute;left:1005px;top:860px;width:372px;font-size:53px;line-height:64px;color:#151515">Lending tool</p>
+<p style="position:absolute;left:1467px;top:614px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">My whole workflow, automated</p>
+<p style="position:absolute;left:1467px;top:860px;width:372px;font-size:53px;line-height:64px;color:#151515">Automation</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">07 / 12</p>
+
+</section>
+
+<section id="teams" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<div style="position:absolute;left:1005px;top:146px;width:865px;height:848px;background:#F4F4F4;border-radius:5px"></div>
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Working with people</p>
+<h2 style="position:absolute;left:47px;top:140px;width:432px;font-size:63px;font-weight:400;line-height:69px;color:#151515">Working across teams.</h2>
+<p style="position:absolute;left:513px;top:162px;width:432px;font-size:28px;line-height:34px;color:#151515">Content designers</p>
+<hr style="position:absolute;left:513px;top:199px;width:432px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:215px;width:432px;font-size:28px;line-height:34px;color:#151515">Product managers</p>
+<hr style="position:absolute;left:513px;top:252px;width:432px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:268px;width:432px;font-size:28px;line-height:34px;color:#151515">Engineers</p>
+<hr style="position:absolute;left:513px;top:305px;width:432px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:321px;width:432px;font-size:28px;line-height:34px;color:#151515">Legal</p>
+<hr style="position:absolute;left:513px;top:358px;width:432px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:374px;width:432px;font-size:28px;line-height:34px;color:#151515">Policy</p>
+<hr style="position:absolute;left:513px;top:411px;width:432px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:427px;width:432px;font-size:28px;line-height:34px;color:#151515">Engineering architects</p>
+<p style="position:absolute;left:1045px;top:186px;width:785px;font-size:24px;line-height:30px;color:#6B6B6B">People I led at Friends of Figma</p>
+<p style="position:absolute;left:1045px;top:226px;width:785px;font-size:95px;line-height:100px;color:#151515">6</p>
+<p style="position:absolute;left:1045px;top:700px;width:785px;font-size:53px;line-height:64px;color:#151515">Sprint planning, design prioritisation and stakeholders.</p>
+<p style="position:absolute;left:1045px;top:880px;width:785px;font-size:28px;line-height:34px;color:#6B6B6B">At PayPal, contractors reported to me.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">08 / 12</p>
+
+</section>
+
+<section id="community" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<div style="position:absolute;left:50px;top:400px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:512px;top:400px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:975px;top:400px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<div style="position:absolute;left:1437px;top:400px;width:432px;height:404px;background:#F4F4F4;border-radius:5px"></div>
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Community</p>
+<h2 style="position:absolute;left:47px;top:140px;width:1700px;font-size:95px;font-weight:400;line-height:100px;color:#151515">Friends of Figma Vadodara</h2>
+<p style="position:absolute;left:80px;top:434px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Active members</p>
+<p style="position:absolute;left:80px;top:690px;width:372px;font-size:95px;line-height:100px;color:#151515">400+</p>
+<p style="position:absolute;left:542px;top:434px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">Major events organised</p>
+<p style="position:absolute;left:542px;top:690px;width:372px;font-size:95px;line-height:100px;color:#151515">5</p>
+<p style="position:absolute;left:1005px;top:434px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">At our Config watch party</p>
+<p style="position:absolute;left:1005px;top:690px;width:372px;font-size:95px;line-height:100px;color:#151515">100+</p>
+<p style="position:absolute;left:1467px;top:434px;width:372px;font-size:24px;line-height:30px;color:#6B6B6B">College Figma-thon</p>
+<p style="position:absolute;left:1467px;top:690px;width:372px;font-size:95px;line-height:100px;color:#151515">8 hrs</p>
+<p style="position:absolute;left:50px;top:860px;width:1500px;font-size:28px;line-height:36px;color:#151515">I started the chapter, and used my network to bring speakers from Google and Spotify to Vadodara.</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">09 / 12</p>
+
+</section>
+
+<section id="learning" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Learning and sharing</p>
+<h2 style="position:absolute;left:47px;top:140px;width:432px;font-size:63px;font-weight:400;line-height:69px;color:#151515">Always learning, always sharing.</h2>
+<hr style="position:absolute;left:513px;top:140px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:188px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">01</p>
+<p style="position:absolute;left:650px;top:176px;width:700px;font-size:53px;line-height:64px;color:#151515">XD Summit, PayPal HQ</p>
+<p style="position:absolute;left:1350px;top:188px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Presented on designing for compliance</p>
+<hr style="position:absolute;left:513px;top:300px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:348px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">02</p>
+<p style="position:absolute;left:650px;top:336px;width:700px;font-size:53px;line-height:64px;color:#151515">UX India and Design Up</p>
+<p style="position:absolute;left:1350px;top:348px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Conferences</p>
+<hr style="position:absolute;left:513px;top:460px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:508px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">03</p>
+<p style="position:absolute;left:650px;top:496px;width:700px;font-size:53px;line-height:64px;color:#151515">Granola, London</p>
+<p style="position:absolute;left:1350px;top:508px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Design engineering night</p>
+<hr style="position:absolute;left:513px;top:620px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:668px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">04</p>
+<p style="position:absolute;left:650px;top:656px;width:700px;font-size:53px;line-height:64px;color:#151515">Apple WDC, Bangalore</p>
+<p style="position:absolute;left:1350px;top:668px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Invited</p>
+<hr style="position:absolute;left:513px;top:780px;width:1357px;border-top:1px solid #E4E4E4">
+<p style="position:absolute;left:513px;top:828px;width:100px;font-size:28px;line-height:34px;color:#6B6B6B">05</p>
+<p style="position:absolute;left:650px;top:816px;width:700px;font-size:53px;line-height:64px;color:#151515">Talks and teaching</p>
+<p style="position:absolute;left:1350px;top:828px;width:520px;text-align:right;font-size:28px;line-height:34px;color:#151515">Ahmedabad, Bangalore, two universities</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">10 / 12</p>
+
+</section>
+
+<section id="fit" data-transition="fade" style="background:#FFFFFF;color:#151515;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<p style="position:absolute;left:50px;top:50px;width:700px;font-size:24px;font-weight:700;color:#151515">Suhail Khira</p>
+<p style="position:absolute;right:50px;top:50px;width:700px;text-align:right;font-size:24px;font-weight:700;color:#151515">Why Poplin</p>
+<h2 style="position:absolute;left:47px;top:140px;width:1500px;font-size:95px;font-weight:400;line-height:100px;color:#151515">What I’d bring to Poplin.</h2>
+<p style="position:absolute;left:50px;top:420px;width:895px;font-size:28px;line-height:34px;font-weight:700;color:#151515">AI Product Designer</p>
+<div style="position:absolute;left:50px;top:470px;width:895px;display:flex;flex-direction:column">
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">Design systems others can build on</p>
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">AI workflows I built myself</p>
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">Close work with engineers and PMs</p>
+</div>
+<p style="position:absolute;left:977px;top:420px;width:895px;font-size:28px;line-height:34px;font-weight:700;color:#151515">UI Engineer, Frontend + Design</p>
+<div style="position:absolute;left:977px;top:470px;width:895px;display:flex;flex-direction:column">
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">Designs a team can build from</p>
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">AI for design and code, with a human check</p>
+<p style="border-top:1px solid #E4E4E4;padding:22px 0;font-size:32px;line-height:40px;color:#151515">Owning work end to end</p>
+</div>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#6B6B6B">Application for Poplin</p>
+<p style="position:absolute;right:50px;bottom:30px;width:300px;text-align:right;font-size:24px;color:#6B6B6B">11 / 12</p>
+
+</section>
+
+<section id="close" data-transition="fade" style="background:#151515;color:#FFFFFF;font-family:Arial, sans-serif;padding:50px;display:flex;flex-direction:column">
+<h1 style="position:absolute;left:50px;top:178px;width:1058px;font-size:107px;font-weight:400;line-height:110px;color:#FFFFFF">Thanks for reading my story.</h1>
+<hr style="position:absolute;left:1206px;top:654px;width:664px;border-top:1px solid #404040">
+<p style="position:absolute;left:1206px;top:672px;width:150px;font-size:28px;line-height:34px;color:#ADADAD">Email</p>
+<p style="position:absolute;left:1396px;top:672px;width:474px;font-size:28px;line-height:34px;color:#FFFFFF">khirasuhail@gmail.com</p>
+<hr style="position:absolute;left:1206px;top:717px;width:664px;border-top:1px solid #404040">
+<p style="position:absolute;left:1206px;top:735px;width:150px;font-size:28px;line-height:34px;color:#ADADAD">Phone</p>
+<p style="position:absolute;left:1396px;top:735px;width:474px;font-size:28px;line-height:34px;color:#FFFFFF">+91 9664640682</p>
+<hr style="position:absolute;left:1206px;top:780px;width:664px;border-top:1px solid #404040">
+<p style="position:absolute;left:1206px;top:798px;width:150px;font-size:28px;line-height:34px;color:#ADADAD">LinkedIn</p>
+<p style="position:absolute;left:1396px;top:798px;width:474px;font-size:28px;line-height:34px;color:#FFFFFF">linkedin.com/in/suhailkhira</p>
+<p style="position:absolute;left:50px;bottom:30px;width:900px;font-size:24px;color:#ADADAD">Suhail Khira, October 2026</p>
+
+</section>
+</div>
+<div id="nav"><button id="p">Prev</button><span id="c"></span><button id="n">Next</button></div>
+<script>
+var s=[].slice.call(document.querySelectorAll('#stage section')),i=0,st=document.getElementById('stage');
+function fit(){var k=Math.min(innerWidth/1920,innerHeight/1080);st.style.transform='scale('+k+')';st.style.left=(innerWidth-1920*k)/2+'px';st.style.top=(innerHeight-1080*k)/2+'px'}
+function show(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,j){e.classList.toggle('on',j==i)});document.getElementById('c').textContent=(i+1)+' / '+s.length;location.hash=i+1}
+addEventListener('resize',fit);addEventListener('keydown',function(e){if(['ArrowRight','ArrowDown',' ','PageDown'].indexOf(e.key)>-1)show(i+1);if(['ArrowLeft','ArrowUp','PageUp'].indexOf(e.key)>-1)show(i-1)});
+document.getElementById('n').onclick=function(){show(i+1)};document.getElementById('p').onclick=function(){show(i-1)};
+addEventListener('hashchange',function(){var n=(parseInt(location.hash.slice(1))||1)-1;if(n!=i)show(n)});fit();show((parseInt(location.hash.slice(1))||1)-1);
+</script></body></html>
